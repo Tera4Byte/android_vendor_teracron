@@ -4,7 +4,7 @@ PRODUCT_PACKAGES += \
 
 # World APN list
 PRODUCT_PACKAGES += \
-    apns-conf.xml
+    vendor/teracron/common/etc/apns-conf.xml:system/etc/apns-cnf.xml
 
 # Telephony packages
 PRODUCT_PACKAGES += \
